@@ -1,0 +1,10 @@
+queue is the linear data structure that follows the fifo principle which means the first in first out it says the first element that enter in the queue will leave first
+A queue can be implemented using arrays or linked list in dsa
+queue using an array-we create two variables front and rear front points to the position of the entry int the queue that is ready to be served and rear refers to the position of the last entry that is the one most recently added
+queue operations
+enqueue-it adds the element in the rear position of the queue
+dequeue-it removes the element from the front position of the queue
+peek-it shows the element in the front position 
+size - it returns the no of elements in the queue
+isempty-use to check if the queue is empty
+isfull-use to check if the queue is not empty
