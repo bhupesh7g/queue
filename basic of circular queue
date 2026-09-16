@@ -1,0 +1,5 @@
+circular queue is the queue in which the last index of the the queue is logically connected to the first index of the queue 
+circular queue is used to tackle the situation of false overflow which is despite being spaces in the queue it returns stack is full 
+In circular queue if the rear exceeds the last index it again becomes the first index by the following code (rear+1)%max and similar with front
+In circular queue the queue is full when the (rear+1)%max==front because there is already element there in a queue
+in circular queue the queue is empty when the front ==-1 
